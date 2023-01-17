@@ -1,0 +1,217 @@
+/*================Reset style start=================*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*================Reset style finish=================*/
+* {
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+  width: 1576px;
+  margin: 0 auto;
+}
+.black {
+  width: 512px;
+  height: 512px;
+  background-color: black;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.foto1 {
+  width: 310px;
+  margin: 128px 101px 32px 101px;
+}
+.flag {
+  width: 80px;
+  height: 60px;
+  margin: 0 216px 109px 216px;
+}
+.top {
+  width: 80px;
+  height: 30px;
+  background-color: #2137fc;
+  border-radius: 6px 6px 0 0;
+}
+.bottom {
+  width: 80px;
+  height: 30px;
+  background-color: #ffd84b;
+  border-radius: 0px 0px 6px 6px;
+}
+.square1 {
+  width: 512px;
+  height: 512px;
+  position: relative;
+  top: -117px;
+  left: 491px;
+  z-index: 2;
+}
+.top1 {
+  width: 512px;
+  height: 256px;
+  background-color: #2137fc;
+}
+.bottom1 {
+  width: 512px;
+  height: 256px;
+  background-color: #ffd84b;
+}
+.square1 .foto2 {
+  width: 400px;
+  height: 227px;
+  color: #fff;
+  position: absolute;
+  top: 145px;
+  right: 52px;
+  bottom: 126px;
+  left: 52px;
+}
+.square2 {
+  width: 512px;
+  height: 512px;
+  position: relative;
+  top: -215px;
+  left: 914px;
+  background-color: #fff;
+  padding: 34px 34px;
+  border: 1px solid #2137fc;
+}
+.cirkle {
+  width: 444px;
+  height: 444px;
+  background-color: #ffd84b;
+  border-radius: 250px;
+}
+.cirkle .foto4 {
+  width: 358px;
+  height: 204px;
+  color: #fff;
+  margin: -26px 44px 56px 44px;
+}
